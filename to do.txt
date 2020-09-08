@@ -32,4 +32,11 @@ ex) http://도메인이름.pythonanywhere.com
 3.
 도메인을 부여받게 됬다면 certbot을 통해 https 인증키를 받아보자
 
-----완료----
+----완료---- 09.08
+
+1. location.html 완성되면 거기에 css 입히기
+ url 잘 가져와야함~!
+
+2. 웹서버와 DB연결하기
+
+3. 자잘자잘한 css 고치기
