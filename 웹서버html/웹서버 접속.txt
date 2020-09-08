@@ -1,0 +1,8 @@
+서버오픈
+python manage.py runserver
+(127.0.0.1:8000으로 접속 가능)
+
+
+외부포트허용 서버오픈
+python manage.py runserver 10.40.7.100:8000
+

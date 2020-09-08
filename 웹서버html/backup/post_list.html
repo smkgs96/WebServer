@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      background: #f3e5f5;
+    }
+
+    #navigation {clear: both; width: 100%; height: 50px; background: #492d80;
+            margin-top: 50px;
+            position:absolute;
+            bottom:0;
+          }
+    #pills-tab {width: 100%;}
+    .nav-item {width: 20%;}
+    
+    div{
+      float:left;
+    }
+    .cause{
+      margin-right: 100px;
+      border:0.1mm solid;
+    }
+    .number{
+      margin-left: 100px;
+      border:0.1mm solid;
+    }
+    .static {
+      width: 100px;
+      height: 360px;
+      line-height: 360px;
+      text-align: center;
+      margin:10 50;
+    }
+    .fire_cause{
+      position: absolute; left: 100px; top: 300px; 
+    }
+    .fire_event{
+      position: absolute; left: 450px; top: 300px;
+    }
+    .fire_data{
+
+    }
+    @media (max-width: 320px) {
+      .nav-item {
+          width: 20%;
+          height: 50px;
+          font-size: 2pt;
+        }
+        #myLocation {
+          float: right;
+        }
+        #navigation {
+          float: none;
+          clear: both;
+          width: 320px; 
+          position: fixed;
+          bottom: 0;        
+        }
+      }
+
+  </style>
+
+</head>
+ 
+<body>
+    <div class="cause" style="width:164px; height:268px; overflow:hidden;">
+      <iframe style="position:relative; top:-1030px; left:-420px;" width="1000px" height="4000px"
+        src="https://nfds.go.kr/dashboard/quicklook.do" >
+      </iframe>
+      <p class="fire_cause">[화재 원인]</p>
+    </div>
+    <div class="number" style="width:215px; height:363px; overflow:hidden;">
+      <iframe style="position:relative; top:-965px; left:-30px;" width="1000px" height="4000px"
+        src="https://nfds.go.kr/dashboard/monitor.do" > </iframe>
+        <p class="fire_event">[지역별 화재빈도]</p>
+    </div>
+    <div class="static">
+      <a href="https://nfds.go.kr/stat/general.do">화재통계자료</a>
+      <p class="fire_data">[통계청 자료]</p>
+    </div>
+    
+    <div align="center" id="navigation">
+      <ul class="nav nav-pills">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" onclick="location.href='./메인화면.html';">
+            <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#" role="tab"
+              aria-controls="pills-home" aria-selected="true">메인화면</a>
+          </li>
+          <li class="nav-item" onclick="location.href='./sobanganjeon.html';">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#" role="tab"
+              aria-controls="pills-profile" aria-selected="false">소방안전</a>
+          </li>
+          <li class="nav-item" onclick="location.href='./post_list.html';">
+            <a class="nav-link active" id="pills-contact-tab" data-toggle="pill" href="#" role="tab"
+              aria-controls="pills-contact" aria-selected="false">통계자료</a>
+          </li>
+          <li class="nav-item" onclick="location.href='./location.html';">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#" role="tab"
+              aria-controls="pills-contact" aria-selected="false">위치기반 안내</a>
+          </li>
+          <li class="nav-item" onclick="location.href='./setting.html';">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#" role="tab"
+              aria-controls="pills-contact" aria-selected="false">설정</a>
+          </li>
+        </ul>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+    
+</body>
+</html>

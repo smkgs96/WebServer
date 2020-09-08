@@ -1,0 +1,16 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<SCRIPT>
+ function moveRight () {
+  var iframe = document.all ? document.all['subframe'] : document.getElementById('subframe');
+    iframe.style.left = (parseInt(iframe.style.left) + 10) + 'px';
+ }
+</SCRIPT>
+</HEAD>
+<BODY>
+<A HREF="javascript: moveRight(); void 0">오른쪽으로 이동</A>
+<IFRAME ID="subframe" NAME="subframe" SRC="http://www.naver.com" STYLE="position: absolute; top: 100px; left: 100px;">
+</IFRAME>
+</BODY>
+</HTML>

@@ -1,0 +1,941 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="ko">
+<head>
+	<title>후각융합연구센터</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="subject" content="" />
+	<meta name="application-name" content="">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="copyright" content="Copyright © 2019 by  Convergence Research Center for Olfaction" /> 
+	<meta name="robots" content="ALL" /> 
+	<meta name="robots" content="index,follow" />
+	<meta name="format-detection" content="telephone=no">
+	
+	<link href="/asset/theme/crco_v1/build_resources/static/css/common.css" rel="stylesheet" />
+	<link href="/asset/theme/crco_v1/build_resources/static/css/crco.css" rel="stylesheet" />
+	<link href="/asset/theme/crco_v1/build_resources/static/css/Swiper/swiper.min.css" rel="stylesheet" />
+	<link href="/asset/js/jquery-fancybox/jquery.fancybox.css?v=2.1.5" rel="stylesheet" >
+
+	<link href="/asset/js/fontawesome-free-5.12.0-web/css/all.css" rel="stylesheet">
+
+	<script src="/asset/theme/crco_v1/build_resources/lib/js/jquery/jquery.min.js"></script>
+	<script src="/asset/theme/crco_v1/build_resources/lib/js/jquery/jquery.easing.1.3.js"></script> 
+	<script src="/asset/theme/crco_v1/build_resources/lib/js/Swiper/swiper.min.js"></script>
+	<script type="text/javascript" src="/asset/js/jquery-fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="/asset/js/jquery-fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script src="/asset/theme/crco_v1/build_resources/js/onePage.js"></script>
+
+	<!-- sweetalert 관련 스크립트 & css -->
+	<script src="/asset/util/sweetalert/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="/asset/util/sweetalert/sweetalert.css">
+	<link rel="stylesheet" href="/asset/util/sweetalert/custom.css">
+
+	<script>
+		function salert(stitle, stext, stype, obj_focus){
+			if(!stitle){
+				stitle = '';
+			}
+			if(!stext){
+				stext = '';
+			}
+			if(!stype){
+				stype = '';
+			}
+
+			if(obj_focus){
+				$(obj_focus).focus();
+			}
+			swal({
+				title: stitle,
+				text: stext,
+				type: stype,
+				html: true
+			});
+		}
+	</script>
+</head>
+<body>
+	<section id="crco">
+
+		<header id="header" class="header">
+			<h1 class="logo">
+				<a href="/"><img src="/asset/theme/crco_v1/build_resources/static/images/etc/logo.png" alt="후각융합연구센터" /></a>
+			</h1>
+			<nav id="gnb">
+				<ol>
+					<li class="current"><a href="#div100039" title="HOME">HOME</a></li>
+					<li class=""><a href="#div100041" title="Introduction">Introduction</a></li>
+					<li class=""><a href="#div100998" title="Vision">Vision</a></li>
+					<li class=""><a href="#div100045" title="Members">Members</a></li>
+					<li class=""><a href="#div100784" title="Announcement">Announcement</a></li>
+					<li class=""><a href="#div100890" title="News">News</a></li>
+					<li class=""><a href="#div100941" title="Publications">Publications</a></li>
+					<li class=""><a href="#div100966" title="Patents">Patents</a></li>
+					<li class=""><a href="#div100053" title="Careers">Careers</a></li>
+					<li class=""><a href="#div100055" title="Contact">Contact</a></li>
+				</ol>
+			</nav>
+			<div class="close">
+				<button type="button"><img src="/asset/theme/crco_v1/build_resources/static/images/etc/close_btn.jpg" alt="닫기 버튼" width="30" /></button>
+			</div>
+		</header>
+
+		<div class="mobileHeader">
+			<div class="logo">
+				<a href="/"><img src="/asset/theme/crco_v1/build_resources/static/images/etc/m_logo.png" alt="후각융합연구센터"></a>
+			</div>
+			<a href="/" class="controller">
+				<span class="mLine"></span><span class="mLine"></span><span class="mLine"></span>
+			</a>
+		</div>
+		<div class="gnbBg"></div>
+		
+		<div class="contents">
+	
+	<div id="div100039" class="main-gallery menu-area-div">
+				<div class="swiper-container">
+					<div class="swiper-wrapper clearfix">
+						<div class="swiper-slide">
+							<img src="/upload/server/files/2020/02/10/20200210153103_6ee5454f8e.jpg" alt="향기가보여요.jpg" style="max-width:100%;"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="/upload/server/files/2020/02/10/20200210153110_ec67650d1e.jpg" alt="gallery_img0.jpg" style="max-width:100%;"/>
+						</div>
+					</div>
+					<div class="copy">
+						<p><strong><span style="color:#86b19e">후각융합연구센터</span> </strong><br />
+<font size="6" color ="Black"> Convergence Research Advanced Centre for Olfaction  </font></p>
+					</div>
+					<div class="control">
+						<div class="swiper-pagination"></div>
+						<div class="autoplay play"><span class="pause"></span><span class="pause"></span></div>
+						<div class="swiper-button-prev swiper-button-white"></div>    
+						<div class="swiper-button-next swiper-button-white"></div>
+					</div>
+				</div>
+			</div>
+<script>
+$(document).ready(function() {
+	var mainSwiper = new Swiper('#div100039 .swiper-container', {
+		pagination: '#div100039 .swiper-pagination',
+		paginationClickable: false,
+		spaceBetween: 0,
+		centeredSlides: true,
+		// autoplay: 2000,
+		updateOnWindowResize:true,
+		prevButton: '.swiper-button-prev',
+		nextButton: '.swiper-button-next',
+		autoplayDisableOnInteraction: false
+	});
+
+	$('#div100039 .autoplay').on('click', function(e) {
+		if ( $(e.currentTarget).hasClass('play') ){
+			mainSwiper.stopAutoplay()
+			$(e.currentTarget).toggleClass('play')
+		} else {
+			mainSwiper.startAutoplay()
+			$(e.currentTarget).toggleClass('play')
+		}
+	});
+});
+</script>
+	
+	<div id="div100041" class="about-content menu-area-div">
+				<div class="contentWrap">
+					<h2 class="subTit">Introduction</h2>
+					<p class="emp">21C 브레인혁명 시기 도래로 새롭게 각광을 받고 있는 가장 원초적 감각신경계인 후각신경계를 활용하여<br />
+창의적 아이디어를 미래 신산업으로 중개하는 융합과학기술을 개발함으로써 삶의 질을 중시하는<br />
+미래 사회에 선제적으로 대응하고자 설립했다.</p>
+					<p>후각융합연구센터는 DGIST를 주축으로 그동안 개별적으로 진행되어 온 국내 후각연구의 협력체계 구축과 후각신경계의 이해를 통해 행복기술 개발을 목표로 한다.<br />
+국내외 후각연구 선도 연구팀 및 세계 유수후각연구센터와의 협력을 통해 ‘코에서 시작되는 향기화학물질 감지로부터 뇌에서 통합되는 향기에 대한 인지’까지 후각분야의 난제를 해결해 나갈 것이다.</p>
+					<h3>Needs for convergence research advanced centre for olfaction</h3>
+					<div class="olfaction">
+					<p class="prev">후각의 사회적 관심 증대(삶의 질 향상)<br />
+후각분야 과학적 난제 해결<br />
+후각 융합연구 허브 구축 필요</p>
+					</div>
+				</div>
+			</div>
+	
+	<div id="div100998" class="main-gallery menu-area-div">
+				<div class="swiper-container">
+					<div class="swiper-wrapper clearfix">
+						<div class="swiper-slide">
+							<img src="/upload/server/files/2020/02/12/20200212135134_b8ed8597e9.jpg" alt="그림3.jpg" style="max-width:100%;"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="/upload/server/files/2020/02/20/20200220211951_3bda3b3d87.png" alt="후각센터.png" style="max-width:100%;"/>
+						</div>
+					</div>
+					<div class="copy">
+						<p></p>
+					</div>
+					<div class="control">
+						<div class="swiper-pagination"></div>
+						<div class="autoplay play"><span class="pause"></span><span class="pause"></span></div>
+						<div class="swiper-button-prev swiper-button-white"></div>    
+						<div class="swiper-button-next swiper-button-white"></div>
+					</div>
+				</div>
+			</div>
+<script>
+$(document).ready(function() {
+	var mainSwiper = new Swiper('#div100998 .swiper-container', {
+		pagination: '#div100998 .swiper-pagination',
+		paginationClickable: false,
+		spaceBetween: 0,
+		centeredSlides: true,
+		// autoplay: 2000,
+		updateOnWindowResize:true,
+		prevButton: '.swiper-button-prev',
+		nextButton: '.swiper-button-next',
+		autoplayDisableOnInteraction: false
+	});
+
+	$('#div100998 .autoplay').on('click', function(e) {
+		if ( $(e.currentTarget).hasClass('play') ){
+			mainSwiper.stopAutoplay()
+			$(e.currentTarget).toggleClass('play')
+		} else {
+			mainSwiper.startAutoplay()
+			$(e.currentTarget).toggleClass('play')
+		}
+	});
+});
+</script>
+	
+	<div id="div100045" class="builder-content menu-area-div">
+				<div class="contentWrap">
+					<h2 class="subTit">Members</h2>
+					<div class="founders">
+						<p class="name">Cheil Moon</p>
+<p class="founder">Prof. Cheil Moon</p>								<img src="/upload/server/files/2020/02/10/20200210164745_52859b65e6.jpg" alt="Cheil Moon" title="Cheil Moon" style="max-width:300px;" onError="this.src='/asset/images/placeholder/user.jpg'"/>
+							<br>
+						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							전화번호:  +82-53-785-6110<br />
+이메일: cmoon@dgist.ac.kr<br />
+최종학력: 영국 임페리엘대학교 박사<br />
+홈페이지: http://home.dgist.ac.kr/cmoon/<br />
+<br />
+Education<br />
+- 학사, 생화학, 연세대학교, 서울, 대한민국<br />
+- 석사, 생명공학, 임페리얼대학, 런던, 영국<br />
+- 박사, 신경생물학, 임페리얼대학, 런던, 영국<br />
+- 박사후 과정, 신경과학, 존스홉킨스대학, 의과대학, 볼티모어, 미국<br />
+<br />
+Professional Experiences<br />
+(현)후각융합연구센터 센터장<br />
+(현)국가과학기술심의위원회 전문위원<br />
+(현)한국뇌연구심의위원회 전문위원<br />
+(현)한국뇌신경과학회 정회원 (이사 역임)<br />
+(현)한국화학감각학회 정회원 (현 회장)<br />
+(현)미신경과학회 정회원
+						</div>
+					</div>
+					<div class="founders">
+						<p class="name">Kyungjin Kim</p>
+<p class="founder">Endowed-Chair Professor</p>						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							전화번호: +82-53-785-6144<br />
+이 메 일: kyungjin@dgist.ac.kr<br />
+최종학력: 미국 일리노이대학교 생리학 및 생물물리학과 박사<br />
+홈페이지: http://BBC.dgist.ac.kr<br />
+<br />
+전화번호: +82-53-785-6144<br />
+이 메 일: kyungjin@dgist.ac.kr<br />
+최종학력: 미국 일리노이대학교 생리학 및 생물물리학과 박사<br />
+홈페이지: http://BBC.dgist.ac.kr<br />
+<br />
+Education<br />
+1975 서울대학교 문리과대학 동물학과(학사)<br />
+1979 서울대학교 문리과대학 (석사/세부전공: 발생생물학)<br />
+1984 미국 일리노이대학교(어바나-샘페인 소재) (박사/세부전공: 신경생물학)<br />
+<br />
+Professional Experiences<br />
+(현) 대구경북과학기술원 뇌·인지과학전공 석좌교수<br />
+(현) 후각융합연구센터,대구경북과학기술원, 교원<br />
+1999-2015 서울대 뇌과학협동과정 겸임교수<br />
+2000-2015 서울대 자연과학대학 생명과학부/뇌인지협동과정 교수<br />
+2003-2013 교육과학기술부(현 과학기술정보통신부) 21세기 뇌프론티어사업단 단장
+						</div>
+					</div>
+					<div class="founders">
+						<p class="name">Hyuk-Jun Kwon</p>
+<p class="founder">Assistant Professor</p>						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							전화번호: +82-53-785-6326<br />
+이메일: hj.kwon@dgist.ac.kr<br />
+최종학력: 미국 버클리대학교 박사<br />
+홈페이지: https://line.dgist.ac.kr/<br />
+<br />
+Education<br />
+- 학사, 기계공학, 고려대학교, 서울, 대한민국<br />
+- 석사, 기계공학, KAIST, 대전, 대한민국<br />
+- 박사, 기계공학, 버클리대학교, 버클리, 미국<br />
+<br />
+Professional Experiences<br />
+(현) 대구경북과학기술원 조교수<br />
+(현) 후각융합연구센터,대구경북과학기술원, 교원
+						</div>
+					</div>
+					<div class="founders">
+						<p class="name">Ji-Woong Choi</p>
+<p class="founder">Professor</p>						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							전화번호: +82-53-785-6311<br />
+이 메 일: jwchoi@dgist.ac.kr<br />
+최종학력: 서울대학교 박사<br />
+홈페이지: https://comm.dgist.ac.kr/<br />
+<br />
+Education<br />
+학사,전자공학,서울대학교,서울,대한민국<br />
+석사,전자공학,서울대학교,서울,대한민국<br />
+박사,전자공학,서울대학교,서울,대한민국<br />
+<br />
+Professional Experiences<br />
+(현) 정보통신융합전공,대구경북과학기술원,교수<br />
+(현) 뇌공학융합연구센터,대구경북과학기술원,센터장<br />
+(헌) 뇌인지과학전공,대구경북과학기술원,겸직교수
+						</div>
+					</div>
+					<div class="founders">
+						<p class="name">Yong-Seok, Oh</p>
+<p class="founder">Associate Professor</p>						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							전화번호: +82-53-785-6114<br />
+이 메 일: ysoh2040@dgist.ac.kr<br />
+최종학력: POSTECH 박사<br />
+홈페이지: http://neurogenomics.dgist.ac.kr/<br />
+<br />
+Education<br />
+학사,동물학과,서울대학교,서울,대한민국<br />
+석사,미생물학,포스텍, 포항, 대한민국<br />
+박사,생명과학,포스텍, 포항, 대한민국<br />
+<br />
+Professional Experiences<br />
+(현) 부교수, 뇌-인지과학전공, 디지스트 대학원, 대구, 대한민국<br />
+(현) 겸임 교원, 분자세포 신경과학 연구실, 록펠러 대학 연구소, 뉴욕, 미국<br />
+(현) 센터장, 실험동물센터, 디지스트 초일류융복합 연구지원센터, 디지스트<br />
+2013: NARSAD* 젊은 과학자상, 미국 뇌 및 행동연구재단 (Brain & Behavior Research Foundation, US)<br />
+2013: 한국 분자세포생물학회, 해외 연구자 Travel Grant Award (KSMCB)
+						</div>
+					</div>
+					<div class="founders">
+						<p class="name">Sang-Ho Lee</p>
+<p class="founder">Researcher</p>						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							전화번호: +82-53-785-4776<br />
+이 메 일: comman35@dgist.ackr<br />
+최종학력: 영남대학교 컴퓨터공학과 박사수료<br />
+<br />
+Education<br />
+학사,컴퓨터공학과,영남대학교<br />
+석사,컴퓨터공학과,영남대학교<br />
+박사수료,컴퓨터공학과,영남대학교<br />
+<br />
+Professional Experiences<br />
+(현) 후각융합연구센터,대구경북과학기술원, 연구원<br />
+(현) 지능형로봇연구부,대구경북과학기술원, 연구원
+						</div>
+					</div>
+					<div class="founders">
+						<p class="name">Chang-Sik Son</p>
+<p class="founder">Senior Researcher</p>						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							전화번호: +82-53-785-4784<br />
+이 메 일: changsikson@dgist.ac.kr<br />
+<br />
+<br />
+<br />
+Professional Experiences<br />
+(현) 후각융합연구센터,대구경북과학기술원,연구원<br />
+(현) 지능형로봇연구부,대구경북과학기술원, 연구원
+						</div>
+					</div>
+					<div class="founders">
+						<p class="name">Won-Seok, Kang</p>
+<p class="founder">Senior Researcher</p>						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							전화번호: +82-53-785-4640<br />
+이 메 일: wskang@dgist.ac.kr<br />
+최종학력: 영남대 공과대학 석사<br />
+<br />
+<br />
+ Professional Experiences <br />
+(현) 후각융합연구센터,대구경북과학기술원,연구원<br />
+(현) DGIST-ETH 마이크로 로봇연구센터,대구경북과학기술원,연구원<br />
+(현) 지능형로봇연구부,대구경북과학기술원, 연구원
+						</div>
+					</div>
+					<div class="founders">
+						<p class="name">Kang Choon Lee, Ph.D.</p>
+<p class="founder">Kang Choon Lee, Ph.D.</p>						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							Prev. Haengdan Distinguished Professor, School of Pharmacy, SungKyunKwan University
+						</div>
+					</div>
+					<div class="founders">
+						<p class="name">Ted M. Dawson, M.D., Ph.D.</p>
+<p class="founder">https://sports.news.nate.com/view/20200113n03051</p>						<div style='font-family: "NotoSansLight"; font-size: 1em; line-height: 1.4; '>
+							Director, Institute for Cell Engineering<br />
+Leonard and Madlyn Abramson Professor in Neurodegenerative Diseases, Professor of Neurology, Neuroscience and Pharmacology & Molecular Sciences, Johns Hopkins University School of Medicine
+						</div>
+					</div>
+
+				</div>
+			</div>
+	
+	<div id="div100784" class="news-content menu-area-div">
+				<div class="contentWrap">
+					<h2 class="subTit">Announcement</h2>
+					<ol class="type100784-ol">
+						<li>
+							<p class="date">Jun, 30, 2020</p>
+							<p class="tit">
+								<a href="/index.php/main/doc?id=101191"  class="pop-view">후각융합연구센터 이공계분야 대학중점연구소 지원사업에 선정</a>
+							</p>
+						</li>
+						<li>
+							<p class="date">Feb, 10, 2020</p>
+							<p class="tit">
+								<a href="/index.php/main/doc?id=100787"  class="pop-view">센터 설립</a>
+							</p>
+						</li>
+					</ol>
+				</div>
+			</div>
+<script>
+var type100784_page = 1;
+var TYPE100784 = {
+	more : function()
+	{
+		type100784_page++;
+		$('#ajaxImg').show();
+		var $form = $('<form/>');
+		$('<input type="hidden" name="_next_page">').val(type100784_page).appendTo($form);
+		$('<input type="hidden" name="menu_id">').val('100784').appendTo($form);
+		$.get('/index.php/main/ajax_more', $form.serialize(), function(result){
+			setTimeout(function(){
+				$('ol.type100784-ol').append(result);
+				if('2'<=$('ol.type100784-ol').children().length){
+					$('.type100784-more').hide();
+					//salert("마지막 입니다.", "", "info");
+				}
+				$('#ajaxImg').hide();
+			}, 200);
+		}).fail(function() {
+			$('#ajaxImg').hide();
+			salert("서버 에러 발생", "", "error");
+		}); //	
+	}
+}
+</script>
+	
+	<div id="div100890" class="publications-content menu-area-div">
+				<div class="contentWrap">
+					<h2 class="subTit">News</h2>
+					<ol class="type100890-ol">
+						<li class="clearfix">
+							<div class="ico">
+<img src="/asset/theme/crco_v1/build_resources/static/images/ico/ico_new.png" alt="news" />								<span class="m-tit mEllipsis">DGIST, 후각융합연구센터 이공계분야 대학중점연구소 지원사업에 선정</span>
+							</div>
+							<div class="txt">
+								<p class="tit">DGIST, 후각융합연구센터 이공계분야 대학중점연구소 지원사업에 선정</p>
+								<p class="desc">
+									전자신문
+								</p>
+								<a href="https://www.etnews.com/20200630000081" title="DGIST, 후각융합연구센터 이공계분야 대학중점연구소 지원사업에 선정" target="_blank">
+									https://www.etnews.com/20200630000081
+								</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="ico">
+<img src="/asset/theme/crco_v1/build_resources/static/images/ico/ico_new.png" alt="news" />								<span class="m-tit mEllipsis">"마음, 심장 아닌 뇌에 있다"…'책 읽어드립니다', 뇌의 수수께끼 조명</span>
+							</div>
+							<div class="txt">
+								<p class="tit">"마음, 심장 아닌 뇌에 있다"…'책 읽어드립니다', 뇌의 수수께끼 조명</p>
+								<p class="desc">
+									2020	한국경제
+								</p>
+								<a href="https://www.hankyung.com/entertainment/article/202001213607I" title=""마음, 심장 아닌 뇌에 있다"…'책 읽어드립니다', 뇌의 수수께끼 조명" target="_blank">
+									https://www.hankyung.com/entertainment/article/202001213607I
+								</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="ico">
+<img src="/asset/theme/crco_v1/build_resources/static/images/ico/ico_new.png" alt="news" />								<span class="m-tit mEllipsis">올리버 색스: 아내를 모자로 착각한 남자' 뇌에 관한 수수께끼...문제일, 김경일 교수와 함께 뇌의 세계로!</span>
+							</div>
+							<div class="txt">
+								<p class="tit">올리버 색스: 아내를 모자로 착각한 남자' 뇌에 관한 수수께끼...문제일, 김경일 교수와 함께 뇌의 세계로!</p>
+								<p class="desc">
+									2020	OBC더원방송
+								</p>
+								<a href="http://m.theonetv.kr/a.html?uid=78338" title="올리버 색스: 아내를 모자로 착각한 남자' 뇌에 관한 수수께끼...문제일, 김경일 교수와 함께 뇌의 세계로!" target="_blank">
+									http://m.theonetv.kr/a.html?uid=78338
+								</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="ico">
+<img src="/asset/theme/crco_v1/build_resources/static/images/ico/ico_new.png" alt="news" />								<span class="m-tit mEllipsis">[책 읽어드립니다] 올리버 색스의 『아내를 모자로 착각한 남자』 뇌과학자 문제일 교수, 인지심리학의 대가 김경일 교수와 함께!</span>
+							</div>
+							<div class="txt">
+								<p class="tit">[책 읽어드립니다] 올리버 색스의 『아내를 모자로 착각한 남자』 뇌과학자 문제일 교수, 인지심리학의 대가 김경일 교수와 함께!</p>
+								<p class="desc">
+									2020	한국강사신문
+								</p>
+								<a href="https://www.lecturernews.com/news/articleView.html?idxno=33249" title="[책 읽어드립니다] 올리버 색스의 『아내를 모자로 착각한 남자』 뇌과학자 문제일 교수, 인지심리학의 대가 김경일 교수와 함께!" target="_blank">
+									https://www.lecturernews.com/news/articleView.html?idxno=33249
+								</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="ico">
+<img src="/asset/theme/crco_v1/build_resources/static/images/ico/ico_new.png" alt="news" />								<span class="m-tit mEllipsis">자폐증 등 신경발달장애 "조기 진단 가능성"</span>
+							</div>
+							<div class="txt">
+								<p class="tit">자폐증 등 신경발달장애 "조기 진단 가능성"</p>
+								<p class="desc">
+									2020	이웃집과학자
+								</p>
+								<a href="https://www.astronomer.rocks/news/articleView.html?idxno=88621" title="자폐증 등 신경발달장애 "조기 진단 가능성"" target="_blank">
+									https://www.astronomer.rocks/news/articleView.html?idxno=88621
+								</a>
+							</div>
+						</li>
+					</ol>
+					<div class="type100890-more more">
+						<button type="button" onclick="TYPE100890.more()">More +</button>
+					</div>
+				</div>
+			</div>
+
+<script>
+var type100890_page = 1;
+var TYPE100890 = {
+	more : function()
+	{
+		type100890_page++;
+		$('#ajaxImg').show();
+		var $form = $('<form/>');
+		$('<input type="hidden" name="_next_page">').val(type100890_page).appendTo($form);
+		$('<input type="hidden" name="menu_id">').val('100890').appendTo($form);
+		$.get('/index.php/main/ajax_more', $form.serialize(), function(result){
+			setTimeout(function(){
+				$('ol.type100890-ol').append(result);
+				if('22'<=$('ol.type100890-ol').children().length){
+					$('.type100890-more').hide();
+					//salert("마지막 입니다.", "", "info");
+				}
+				$('#ajaxImg').hide();
+			}, 200);
+		}).fail(function() {
+			$('#ajaxImg').hide();
+			salert("서버 에러 발생", "", "error");
+		}); //	
+	}
+}
+</script>
+	
+	<div id="div100941" class="news-content menu-area-div">
+				<div class="contentWrap">
+					<h2 class="subTit">Publications</h2>
+					<ol class="type100941-ol">
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101120"  class="pop-view">Timely inhibitory circuit formation by Abl1 regulates innate olfactory behaviors in mouse</a></p>
+							<p class="tit">
+									Cell Reports / 
+								Jae Yeon Kim, Bongki Cho, Cheil Moon
+							</p>
+							<a href="" title="Timely inhibitory circuit formation by Abl1 regulates innate olfactory behaviors in mouse" target="_blank">
+								
+							</a>
+						</li>
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101118"  class="pop-view">Color-sensitive and spectrometer-free plasmonic sensor for biosensing applications</a></p>
+							<p class="tit">
+									Biosensors and Bioelectronics / 
+								Seunguk Kim, Youngjin Lee, Jae Yeon Kim, Jae Hoon Yang, Hyuk-Jun Kwon, Jae Youn Hwang, Cheil Moon, Jae Eun Jang
+							</p>
+							<a href="" title="Color-sensitive and spectrometer-free plasmonic sensor for biosensing applications" target="_blank">
+								
+							</a>
+						</li>
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101116"  class="pop-view">A novel supportive assessment for comprehensive aggression using EEG and ECG</a></p>
+							<p class="tit">
+									Neuroscience letters / 
+								SeungYeong Im, Jinju Jeong, Gwonhyu Jin, Jiwoo Yeom, Janghwan Jekal, Jung Ah Cho, Sukkyoo Lee, Youngmi Lee, Dae-Hwan Kim, Mijeong Bae, Jinhwa Heo, Cheil Moon, Chang-Hun Lee
+							</p>
+							<a href="" title="A novel supportive assessment for comprehensive aggression using EEG and ECG" target="_blank">
+								
+							</a>
+						</li>
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101114"  class="pop-view">MAOA variants differ in oscillatory EEG & ECG activities in response to aggression-inducing stimuli</a></p>
+							<p class="tit">
+									Scientific reports / 
+								SeungYeong Im, Jinju Jeong, Gwonhyu Jin, Jiwoo Yeom, Janghwan Jekal, Jung Ah Cho, Sukkyoo Lee, Youngmi Lee, Dae-Hwan Kim, Mijeong Bae, Jinhwa Heo, Cheil Moon, Chang-Hun Lee
+							</p>
+							<a href="" title="MAOA variants differ in oscillatory EEG & ECG activities in response to aggression-inducing stimuli" target="_blank">
+								
+							</a>
+						</li>
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101112"  class="pop-view">Magnetically actuated microrobots as a platform for stem cell transplantation</a></p>
+							<p class="tit">
+									Science Robotics / 
+								Sungwoong Jeon, Sangwon Kim, Shinwon Ha, Seungmin Lee, Eunhee Kim, So Yeun Kim, Sun Hwa Park, Jung Ho Jeon, Sung Won Kim, Cheil Moon, Bradley J Nelson, Jin-young Kim, Seong-Woon Yu, Hongsoo Choi
+							</p>
+							<a href="" title="Magnetically actuated microrobots as a platform for stem cell transplantation" target="_blank">
+								
+							</a>
+						</li>
+					</ol>
+					<div class="type100941-more more">
+						<button type="button" onclick="TYPE100941.more()">More +</button>
+					</div>
+				</div>
+			</div>
+<script>
+var type100941_page = 1;
+var TYPE100941 = {
+	more : function()
+	{
+		type100941_page++;
+		$('#ajaxImg').show();
+		var $form = $('<form/>');
+		$('<input type="hidden" name="_next_page">').val(type100941_page).appendTo($form);
+		$('<input type="hidden" name="menu_id">').val('100941').appendTo($form);
+		$.get('/index.php/main/ajax_more', $form.serialize(), function(result){
+			setTimeout(function(){
+				$('ol.type100941-ol').append(result);
+				if('40'<=$('ol.type100941-ol').children().length){
+					$('.type100941-more').hide();
+					//salert("마지막 입니다.", "", "info");
+				}
+				$('#ajaxImg').hide();
+			}, 200);
+		}).fail(function() {
+			$('#ajaxImg').hide();
+			salert("서버 에러 발생", "", "error");
+		}); //	
+	}
+}
+</script>
+	
+	<div id="div100966" class="news-content menu-area-div">
+				<div class="contentWrap">
+					<h2 class="subTit">Patents</h2>
+					<ol class="type100966-ol">
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101184"  class="pop-view">콧물 시료를 이용하여 경도 및 중도 알츠하이머 질환을 구분하여 진단하기 위한 조성물 및 키트(10-2041115)</a></p>
+							<p class="tit">
+								(2019.10.31)
+							</p>
+						</li>
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101182"  class="pop-view">타우 단백질을 포함하는 알츠하이머 중증도 진단용 조성물 및 이를 이용한 알츠하이머 중증도의 진단방법(10-2033776)</a></p>
+							<p class="tit">
+								(2019.10.11)
+							</p>
+						</li>
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101180"  class="pop-view">알츠하이머 질환 진단용 조성물(10-1994605)</a></p>
+							<p class="tit">
+								(2019.06.24)
+							</p>
+						</li>
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101178"  class="pop-view">온수매트 시스템 및 온수매트 시스템을 이용한 자극 제공 방법(10-1986046)</a></p>
+							<p class="tit">
+								(2019.05.29)
+							</p>
+						</li>
+						<li>
+							<p class="date"><a href="/index.php/main/doc?id=101176"  class="pop-view">탈부착형 저온 시약 보관 자켓을 이용한 시약 교체 장치(10-1975059)</a></p>
+							<p class="tit">
+								(2019.04.26)
+							</p>
+						</li>
+					</ol>
+					<div class="type100966-more more">
+						<button type="button" onclick="TYPE100966.more()">More +</button>
+					</div>
+				</div>
+			</div>
+<script>
+var type100966_page = 1;
+var TYPE100966 = {
+	more : function()
+	{
+		type100966_page++;
+		$('#ajaxImg').show();
+		var $form = $('<form/>');
+		$('<input type="hidden" name="_next_page">').val(type100966_page).appendTo($form);
+		$('<input type="hidden" name="menu_id">').val('100966').appendTo($form);
+		$.get('/index.php/main/ajax_more', $form.serialize(), function(result){
+			setTimeout(function(){
+				$('ol.type100966-ol').append(result);
+				if('30'<=$('ol.type100966-ol').children().length){
+					$('.type100966-more').hide();
+					//salert("마지막 입니다.", "", "info");
+				}
+				$('#ajaxImg').hide();
+			}, 200);
+		}).fail(function() {
+			$('#ajaxImg').hide();
+			salert("서버 에러 발생", "", "error");
+		}); //	
+	}
+}
+</script>
+	
+	<div id="div100053" class="about-content menu-area-div">
+				<div class="contentWrap">
+					<h2 class="subTit">Careers</h2>
+					<p class="emp">후각융합센터는 국내 후각연구의 협력체계 구축과 후각신경계의 이해를 통해 행복기술 개발을 목표로하는 연구기관으로서 우리나라가 선도 후각 연구 강국으로 도약하기 위해 설립된 대구경북과학기술원 부속의 연구기관입니다. 우리나라 후각 연구를 개척할 창의적이고 열정적인 인재를 모집하고 있습니다.</p>
+					<p class="emp">■ 모집분야 :  아르바이트 <br />
+<br />
+■ 근무조건<br />
+<br />
+    - 근무기간 :  채용일로부터 2020년 12월 31일까지<br />
+<br />
+    - 근무요일 : 월~금<br />
+<br />
+    - 근무시간 : 09:00 ~ 18:00 / 휴게시간 : 60분<br />
+<br />
+    - 복리후생 : 산재보험,국민연금,고용보험,건강보험,통근버스 운행,주차가능,연장근로수당 (상기시간외 초과 근로수당 별도 지급)<br />
+<br />
+■ 지원조건<br />
+<br />
+    - 성별 : 성별무관<br />
+<br />
+    - 연령 : 연령무관<br />
+<br />
+    - 학력 : 대학(4년제) 졸업(예정) [* 미취업 대학(원) 졸업생(졸업예정생 가능)만 채용]<br />
+<br />
+    - 우대조건 : 이공계 전공 우대, 컴퓨터활용가능,한글(HWP)가능,엑셀가능,파워포인트가능,유사업무 경험<br />
+<br />
+■ 접수방법<br />
+  <br />
+    - 접수방법 : 이메일지원 (olfaction@dgist.ac.kr)<br />
+<br />
+■ 담당자정보<br />
+<br />
+    - 담당자명 :  이상호<br />
+<br />
+    - 전화번호 : 053-785-4776</p>
+				</div>
+			</div>
+	
+	<div id="div100055" class="contact-content menu-area-div">
+				<div class="contentWrap">
+					<h2 class="subTit">Contact</h2>
+					<p>(우)42988 대구광역시 달성군 현풍읍 테크노중앙대로 333 <br />
+333, Techno jungang-daero, Hyeonpung-eup, Dalseong-gun, Daegu, Republic of Korea</p>
+					<ul>
+						<li>olfaction@dgist.ac.kr</li>
+					</ul>
+					<div id="map" class="mapWrap" style="border:1px solid white; ">
+						
+					</div>
+				</div>
+			</div>
+
+<div style="display:none;">
+<input type="text" id="postcode" name="content[postcode]" value="42988">
+<input type="text" id="address" name="content[address]" value="대구 달성군 현풍읍 테크노중앙대로 333 (상리)">
+<input type="text" id="addressEng" name="content[address_eng]" value="333, Techno jungang-daero, Hyeonpung-eup, Dalseong-gun, Daegu, Korea">
+<br>
+<input type="text" id="x" name="content[x]" value="128.45501200707812">
+<input type="text" id="y" name="content[y]" value="35.705637380844976">
+</div>
+
+<!-- iOS에서는 position:fixed 버그가 있음, 적용하는 사이트에 맞게 position:absolute 등을 이용하여 top,left값 조정 필요 -->
+<div id="layer" class="col-md-6" style="display:none;position:fixed;overflow:hidden;z-index:9999;-webkit-overflow-scrolling:touch;  background:#fff;">
+<img src="//t1.daumcdn.net/localimg/localimages/07/postcode/320/close.png" id="btnCloseLayer" style="cursor:pointer;position:absolute;right:-3px;top:-3px;z-index:1" onclick="DaumPost.close()" alt="닫기 버튼">
+</div>
+
+<script src="//dmaps.daum.net/map_js_init/postcode.v2.js"></script>
+
+<script>
+// 우편번호 찾기 화면을 넣을 element
+var element_layer = document.getElementById('layer');
+var DaumPost = {
+	close : function()
+	{
+		element_layer.style.display = 'none';
+	},
+	execDaumPostcode : function(postcodeID, addressID, addressEnglishID)
+	{
+		new daum.Postcode({
+			oncomplete: function(data) {
+				// 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+				// 각 주소의 노출 규칙에 따라 주소를 조합한다.
+				// 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+				var fullAddr = data.address; // 최종 주소 변수
+				var extraAddr = ''; // 조합형 주소 변수
+
+				// 기본 주소가 도로명 타입일때 조합한다.
+				if(data.addressType === 'R'){
+					//법정동명이 있을 경우 추가한다.
+					if(data.bname !== ''){
+						extraAddr += data.bname;
+					}
+					// 건물명이 있을 경우 추가한다.
+					if(data.buildingName !== ''){
+						extraAddr += (extraAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+					}
+					// 조합형주소의 유무에 따라 양쪽에 괄호를 추가하여 최종 주소를 만든다.
+					fullAddr += (extraAddr !== '' ? ' ('+ extraAddr +')' : '');
+				}
+
+				// 우편번호와 주소 정보를 해당 필드에 넣는다.
+				if(postcodeID) document.getElementById(postcodeID).value = data.zonecode; //5자리 새우편번호 사용
+				if(addressID) document.getElementById(addressID).value = fullAddr; //5자리 새우편번호 사용
+				if(addressEnglishID) document.getElementById(addressEnglishID).value = data.addressEnglish; //5자리 새우편번호 사용
+
+				// iframe을 넣은 element를 안보이게 한다.
+				// (autoClose:false 기능을 이용한다면, 아래 코드를 제거해야 화면에서 사라지지 않는다.)
+				element_layer.style.display = 'none';
+			},
+			width : '100%',
+			height : '100%',
+			maxSuggestItems : 5
+		}).embed(element_layer);
+
+		// iframe을 넣은 element를 보이게 한다.
+		element_layer.style.display = 'block';
+
+		// iframe을 넣은 element의 위치를 화면의 가운데로 이동시킨다.
+		DaumPost.initLayerPosition();
+	},
+	initLayerPosition : function()
+	{
+		var width = 300; //우편번호서비스가 들어갈 element의 width
+		var height = 400; //우편번호서비스가 들어갈 element의 height
+		var borderWidth = 5; //샘플에서 사용하는 border의 두께
+
+		element_layer.style.height = height + 'px';
+		element_layer.style.border = borderWidth + 'px solid';
+		// 실행되는 순간의 화면 너비와 높이 값을 가져와서 중앙에 뜰 수 있도록 위치를 계산한다.
+		element_layer.style.left = '50%';
+		var w = $('#layer').width();
+		w = w/2;
+		$('#layer').css("margin-left", "-" + w + "px");
+		element_layer.style.left = '50%';
+		element_layer.style.top = (((window.innerHeight || document.documentElement.clientHeight) - height)/2 - borderWidth) + 'px';
+	}
+}
+</script>
+
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7be181b6f6d5376ce8292507bd5cded3&libraries=services"></script>
+<script>
+mapSetting();
+
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+	mapOption = {
+		center: new daum.maps.LatLng(35.705637380844976, 128.45501200707812), // 지도의 중심좌표
+		level: 3 // 지도의 확대 레벨
+	};  
+
+// 지도를 생성합니다	
+var map = new daum.maps.Map(mapContainer, mapOption); 
+//map.setDraggable(false);
+//map.setZoomable(false);
+
+
+function mapSetting(){
+
+	// 주소-좌표 변환 객체를 생성합니다
+	var geocoder = new daum.maps.services.Geocoder();
+
+	var address = $('#address').val();
+	var pname= '';
+
+	// 주소로 좌표를 검색합니다
+	geocoder.addressSearch(address, function(result, status) {
+		// 정상적으로 검색이 완료됐으면 
+		 if (status === daum.maps.services.Status.OK) {
+			var coords = new daum.maps.LatLng(result[0].y, result[0].x);
+			var marker = new daum.maps.Marker({
+				map: map,
+				position: coords
+			});
+		} 
+	});	
+}
+</script>
+
+		</div>
+
+<footer class="footer">
+			<p>Copyright © 2019 by  Convergence Research Center for Olfaction</p>
+		</footer>
+
+	</section>
+
+<script>
+		$(".mobileHeader .controller").on('click', function(e) {
+			e.preventDefault();
+			$(".gnbBg").show();
+			$(".header").toggleClass('open');
+		});
+
+		$(".header .close").on('click', function(e) {
+			$(".gnbBg").hide();
+			$(".header").toggleClass('open');
+		});
+			
+
+
+		$(document).ready(function() {
+			// fancybox
+			jQuery(".pop-view").fancybox({
+				padding     : 0,
+				margin      : 10,
+				fitToView   : true,         
+				width       : "95%",
+				maxWidth    : 1340,
+				maxHeight   : "95%",
+				minHeight   : 180,      
+				autoHeight  : true,
+				closeClick  : false,
+				openEffect  : 'none',
+				closeEffect : 'none',
+				type        : 'iframe'
+			});
+
+			$(".btn-m-menu").click(function(e){     
+				e.preventDefault();     
+				$("html").toggleClass("menu-opened");
+			});
+			$(".mobile-overlay, .nav-menu a,.mobile-navigation .close").click(function(e){      
+				e.preventDefault();     
+				$("html").removeClass("menu-opened");
+			});
+		});
+
+
+
+	</script>
+	<script>
+		/*
+		function initMap() {
+			var myLatLng = {lat: 37.405389, lng: 127.100701};
+
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 16,
+				center: myLatLng
+			});
+			var marker = new google.maps.Marker({
+				position: myLatLng,
+				map: map
+			}); 
+		}
+		*/
+
+
+	</script>
+
+</body>
+</html>
