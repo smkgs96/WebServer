@@ -1,0 +1,35 @@
+1.
+github 숙지하기 
+
+git status : 로컬저장소의 상태와 add할 파일을 확인
+git add .  : 모든 파일 및 폴더들을 버전관리 목록에 추가하겠다.
+git commit -m "이름(설명) ex: fix bug" : 스냅샷을 찍는다. " "에 들어갈 내용은 깃허브에 표시될 이름. 
+git remote add origin 레포지토리url : 레포지토리 url과 연동시키겠다.
+git push origin master : 사용자의 계정과 비밀번호를 입력하고 git hub에 업로드한다. (이후에는 git push만 해도 가능한 듯)
+git pull : 다른 사람이 개발한 코드를 내 컴퓨터에 받아오고 싶을 때
+git branch branch-name : 한 저장소에서 다른 개발자랑 같이 작업하고 싶을 때
+git merge brabch-name : 브랜치에서 작업이 끝나서 코드를 합치고 싶을 때
+
+간단한 협업 시나리오
+ - 컴퓨터에서 코드 작업
+ - 단계별로 커밋 만들기
+ - github에 저장소를 만들어 커밋을 푸시
+ - 동료 개발자가 본인 컴퓨터에 저장소를 풀
+ - 동료 개발자가 브랜치를 만들어 버그를 고침
+ - 브랜치 작업이 끝나면 master브랜치와 병합
+
+
+2.
+파이썬애니웨어를 통해 깃클론 하기
+
+설명블로그
+ 가) https://m.blog.naver.com/PostView.nhn?blogId=shino1025&logNo=221316423585&proxyReferer=https:%2F%2Fwww.google.com%2F
+ 나) https://morningbird.tistory.com/24
+
+이를 통해 웹 서버가 도메인을 부여받을 수 있을 것?
+ex) http://도메인이름.pythonanywhere.com
+
+3.
+도메인을 부여받게 됬다면 certbot을 통해 https 인증키를 받아보자
+
+----완료----
